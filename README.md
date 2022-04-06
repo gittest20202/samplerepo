@@ -20,3 +20,5 @@
 
 - The browser re-directs to display token page, Click the Display token :point_down:
 ![DISPLAY TOKEN](images/token.PNG?raw=true)
+
+- API token has generated, copy the login command and execute it to the local terminal. [CLI Download and install](https://docs.openshift.com/online/pro/cli_reference/get_started_cli.html) ![CLI-LOGIN](images/login-cli.PNG?raw=true)
