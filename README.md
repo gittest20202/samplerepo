@@ -1,6 +1,14 @@
 # OpenUniversity Openshift Cluster Monitoring RunBook
+<p align="center">
+  <img 
+    width="300"
+    height="300"
+    src="images/ocp-logo.png"
+  >
+</p>
 
-![OCP-LOGO](images/ocp-logo.png?raw=true)## OCP Services and Monitoring
+![OCP-LOGO](images/ocp-logo.png?raw=true)
+## OCP Services and Monitoring
 **1.1 Steps to Login to OCP Portal UI**
 - Go to the [Console Page] (https://console-openshift-console.apps.cp4d4.dev.wkc.open.ac.uk) in the browser, it will be landing to Login page.
 
