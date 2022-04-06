@@ -175,4 +175,11 @@ $ oc get events
   ```
   - Paste the query on the Prometheus search box to see the utilization graph.
    ![PROMETHEUS](images/prometheus-dashboard2.PNG?raw=true)
+  
+  - To verify the utilization for the single pod that needs to use the following command
+  ```
+  sort_desc(topk(10, sum by (pod)(container_memory_working_set_bytes{container="",pod="c-db2oltp-iis-db2u-0",namespace="cpd-instance"})))
+  ```
+  ![PROMETHEUS](images/prometheus-dashboard3.PNG?raw=true)
 
+**1.10 Verifying the ETCD Cluster health status**
