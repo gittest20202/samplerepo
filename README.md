@@ -40,4 +40,4 @@ $oc get project
 - Here can see all the projects, and there are three projects which related to CP4D services
    - ***i cpd-instance***
    - ***ii. cpd-operators***
-   - ***iii. ibm-common-services***
+   - ***iii. ibm-common-services*** ![PROJECT-STATUS](images/project-status.PNG?raw=true)
