@@ -18,5 +18,5 @@
 
 - It will request to enter the cluster credentials ***(Follow Step 1.1)***
 
-- The browser re-directs to display token page, Click the Display token
+- The browser re-directs to display token page, Click the Display token :point_down:
 ![DISPLAY TOKEN](images/token.PNG?raw=true)
