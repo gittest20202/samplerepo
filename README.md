@@ -14,4 +14,4 @@
 ![HOMEPAGE](images/OCP-overviewpage.PNG?raw=true)
 
 **1.2 Steps to Login to OCP VIA CLI:**
-- Navigate to ***mit_reader user*** which is located on top right corner of the OCP cluster home page, and select ***Copy login command*** OC CLI Cheatsheet [oc Cheat Sheet](https://livebook.manning.com/book/openshift-in-action/oc-cheat-sheet/)
+- Navigate to ***mit_reader user*** which is located on top right corner of the OCP cluster home page, and select ***Copy login command*** :point_right:[OC Cheat Sheet](https://livebook.manning.com/book/openshift-in-action/oc-cheat-sheet/)
