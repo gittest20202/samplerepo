@@ -67,3 +67,41 @@ $oc project ibm-common-services
 ```
 ![IBM-COMMON-SERVICES](images/ibm-common.PNG?raw=true)
 
+**1.6 Monitor the critical objects running in the CP4D projects**
+- When it comes to the project level in OCP, there are such a critical component that needs to be monitored. [kubernetes Objects](https://chkrishna.medium.com/kubernetes-objects-e0a8b93b5cdc)
+   - ***i. Deployments***
+   - ***ii. Pods***
+   - ***iii. Services***
+   - ***iv. Route***
+   - ***v. Config map***
+   - ***vi. Secrets***
+
+- To check the various objects on the project that needs to be executed the following command
+```
+To view all pods in the project
+$oc get pods
+```
+```
+To viwe all the deployments in the project
+$oc get deployment
+```
+```
+To View all the services in the project
+$oc get service
+```
+```
+To View all the route in the projects
+$oc get route
+```
+```
+To View all the config maps in the project
+$oc get cm
+```
+```
+To View all the secrets in the project
+$oc get secret
+```
+```
+To View all objects in the project
+$oc get all
+```
