@@ -30,3 +30,14 @@ $oc get nodes
 ```
 
 - All the nodes should be in the Ready state, so that the cluster up and running perfectly.![CLUSTER-STATUS](images/cluster-status.PNG?raw=true)
+
+**Monitoring the status of the projects**
+- To execute the following command to list and check the status of the available projects in the OCP cluster.
+```
+$oc get project
+```
+
+- Here can see all the projects, and there are three projects which related to CP4D services
+   - ***i cpd-instance***
+   - ***ii. cpd-operators***
+   - ***iii. ibm-common-services***
