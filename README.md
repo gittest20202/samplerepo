@@ -5,4 +5,7 @@
 - Go to the [Console Page] (https://console-openshift-console.apps.cp4d4.dev.wkc.open.ac.uk) in the browser, it will be landing to Login page.
 
 - Select **mit_htpasswd_provider** and enter the Username and Password to login.
-![USERNAME-PASSWORD](images/login-page.PNG?raw=true)
+![LOGIN-PAGE](images/login-page.PNG?raw=true)
+
+- Enter the **Username and Password** to login to the cluster.
+![USERNAME-PASSWORD](images/username-page.PNG?raw=true) 
