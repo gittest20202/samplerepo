@@ -28,3 +28,5 @@
 ```
 $oc get nodes
 ```
+
+- All the nodes should be in the Ready state, so that the cluster up and running perfectly.![CLUSTER-STATUS](images/cluster-status.PNG}raw=true)
