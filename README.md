@@ -26,5 +26,5 @@
 **1.3 Monitoring the Node status**
 - To execute a single command to view and verify the nodes those which are running in the OCP cluster
 ```
-***$oc get nodes***
+$oc get nodes
 ```
