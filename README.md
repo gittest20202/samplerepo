@@ -77,15 +77,15 @@ $oc project ibm-common-services
    - ***vi. Secrets***
 
 - To check the various objects on the project that needs to be executed the following command
-:point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
+  - :point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
 ```
-To view all pods in the project
-$oc get pods
+    To view all pods in the project
+    $oc get pods
 ```
-:point_right:[DEPLOYMENT](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html)
+  - :point_right:[DEPLOYMENT](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html)
 ```
 To viwe all the deployments in the project
-$oc get deployment
+    $oc get deployment
 ```
 :point_right:[SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
 ```
