@@ -78,29 +78,35 @@ $oc project ibm-common-services
 
 - To check the various objects on the project that needs to be executed the following command
 ```
-To view all pods in the project [PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
+To view all pods in the project
 $oc get pods
 ```
+:point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
 ```
-To viwe all the deployments in the project[DEPLOYMENT](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html)
+To viwe all the deployments in the project
 $oc get deployment
 ```
+:point_right:[DEPLOYMENT](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html)
 ```
-To View all the services in the project [SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
+To View all the services in the project
 $oc get service
 ```
+:point_right:[SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
 ```
-To View all the route in the projects[ROUTE](https://docs.openshift.com/container-platform/4.10/networking/understanding-networking.html)
+To View all the route in the projects
 $oc get route
 ```
+:point_right:[ROUTE](https://docs.openshift.com/container-platform/4.10/networking/understanding-networking.html)
 ```
-To View all the config maps in the project[CONFIG-MAP](https://docs.openshift.com/container-platform/4.9/nodes/pods/nodes-pods-configmaps.html)
+To View all the config maps in the project
 $oc get cm
 ```
+:point_right:[CONFIG-MAP](https://docs.openshift.com/container-platform/4.9/nodes/pods/nodes-pods-configmaps.html)
 ```
-To View all the secrets in the project[SECRETS](https://docs.openshift.com/container-platform/3.11/dev_guide/secrets.html#:~:text=The%20Secret%20object%20type%20provides,sensitive%20content%20from%20the%20pods.)
+To View all the secrets in the project
 $oc get secret
 ```
+:point_right:[SECRETS](https://docs.openshift.com/container-platform/3.11/dev_guide/secrets.html#:~:text=The%20Secret%20object%20type%20provides,sensitive%20content%20from%20the%20pods.)
 ```
 To View all objects in the project
 $oc get all
