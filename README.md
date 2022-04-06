@@ -78,36 +78,36 @@ $oc project ibm-common-services
 
 - To check the various objects on the project that needs to be executed the following command
   - :point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
-```
+  ```
     To view all pods in the project
     $oc get pods
-```
+  ```
   - :point_right:[DEPLOYMENT](https://docs.openshift.com/container-platform/4.6/applications/deployments/what-deployments-are.html)
-```
-To viwe all the deployments in the project
+  ```
+    To viwe all the deployments in the project
     $oc get deployment
-```
+  ```
   - :point_right:[SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
-```
-To View all the services in the project
-$oc get service
-```
+  ```
+    To View all the services in the project
+    $oc get service
+  ```
   - :point_right:[ROUTE](https://docs.openshift.com/container-platform/4.10/networking/understanding-networking.html)
-```
-To View all the route in the projects
-$oc get route
-```
+  ```
+    To View all the route in the projects
+    $oc get route
+  ```
   - :point_right:[CONFIG-MAP](https://docs.openshift.com/container-platform/4.9/nodes/pods/nodes-pods-configmaps.html)
-```
-To View all the config maps in the project
-$oc get cm
-```
+  ```
+  To View all the config maps in the project
+  $oc get cm
+  ```
   - :point_right:[SECRETS](https://docs.openshift.com/container-platform/3.11/dev_guide/secrets.html#:~:text=The%20Secret%20object%20type%20provides,sensitive%20content%20from%20the%20pods.)
-```
-To View all the secrets in the project
-$oc get secret
-```
-```
-To View all objects in the project
-$oc get all
-```
+  ```
+  To View all the secrets in the project
+  $oc get secret
+  ```
+  ```
+  To View all objects in the project
+  $oc get all
+  ```
