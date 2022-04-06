@@ -111,3 +111,68 @@ $oc project ibm-common-services
   To View all objects in the project
   $oc get all
   ```
+
+**1.7 Steps to diagnostic when pods are not in running state**
+- If any pod is not running state from CP4D related project, it needs to be troubleshot
+
+- To check the pods which excludes the state of ***Running and Completed***, that needs to be executed the following command.
+```
+Navigate to respective project
+
+$ oc project <project-name>
+```
+```
+Check the pod status
+
+$ oc get pods | grep -v 'Running\|Completed'
+```
+![POD-STATUS](images/pod-status.PNG?raw=true)
+
+- There are some pods are in the error state, hence it needs to be investigated in-order to troubleshoot.
+
+- To investigate the pod, initial step that needs to be checked the ***log files*** and execute the following commands to get the log
+```
+$ oc logs <pod-name>
+```
+
+- To get additional information, that needs to be executed the following command
+```
+$ oc describe pod <pod-name>
+```
+
+**1.8 Steps to diagnostic in the project level issues**
+- Navigate to the respective project ***($ oc project <project-name>)***
+
+---Execute the following commands to check the event log
+```
+$ oc get events
+```
+**1.9 Monitoring the Node Workload Using Grafana**
+- To access the Grafana GUI, that needs to be executed the following url from the web browser. [Grafana Tutorials](https://grafana.com/tutorials/)
+
+[GRAFANA-DASHBOARD](https://grafana-openshift-monitoring.apps.cp4d4.dev.wkc.open.ac.uk/?orgId=1)
+![Grafana](images/grafana-dashboard.PNG?raw=true)
+
+- ***Select USE Method/Node*** option to view the node utilization
+
+- ***Select the desired node*** from instance and view all the utilization such CPU, Memory, Net, Disk for the respective node.
+![Grafana](images/grafana-dashboard1.PNG?raw=true)
+
+***Monitoring Pod and Container Workload using Prometheus***
+- Understand Prometheus Basic Query Querying basics | Prometheus
+
+- To access the Prometheus use the following web url 
+  [PROMETHEUS](https://prometheus-k8s-openshift-monitoring.apps.cp4d4.dev.wkc.open.ac.uk)
+
+- Once the page has loaded, can see the Prometheus homepage
+![PROMETHEUS](images/prometheus-dashboard.PNG?raw=true)
+
+- Choose ***Graph*** option on the homepage
+![PROMETHEUS](images/prometheus-dashboard1.PNG?raw=true)
+  - To check the and verify the workload on all the pods, that needs to use the following query command
+  ```
+  sort_desc(topk(10, sum by (pod)(container_memory_working_set_bytes{container="",pod!="",namespace="cpd-instance"})))
+  ```
+  - Paste the query on the Prometheus search box to see the utilization graph.
+   ![PROMETHEUS](images/prometheus-dashboard2.PNG?raw=true)
+
