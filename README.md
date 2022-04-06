@@ -169,7 +169,7 @@ $ oc get events
 - Understand Prometheus Basic Query Querying basics | Prometheus
 
 - To access the Prometheus use the following web url 
-  [PROMETHEUS](https://prometheus-k8s-openshift-monitoring.apps.cp4d4.dev.wkc.open.ac.uk)
+  [PROMETHEUS-DASHBOARD](https://prometheus-k8s-openshift-monitoring.apps.cp4d4.dev.wkc.open.ac.uk)
 
 - Once the page has loaded, can see the Prometheus homepage
 ![PROMETHEUS](images/prometheus-dashboard.PNG?raw=true)
