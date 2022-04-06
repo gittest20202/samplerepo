@@ -60,7 +60,7 @@ $oc project cpd-instance
 ```
 $oc project cpd-operators
 ```
-![CPD-OPERATOR](images/cpd-operator.PNG?raw=true)
+![CPD-OPERATOR](images/cpd-operators.PNG?raw=true)
 - To Navigate ***ibm-common-services***
 ```
 $oc project ibm-common-services
