@@ -81,7 +81,7 @@ $oc project ibm-common-services
 To view all pods in the project
 $oc get pods
 ```
-:point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
+:point_right:[PODS](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
 ```
 To viwe all the deployments in the project
 $oc get deployment
@@ -91,7 +91,7 @@ $oc get deployment
 To View all the services in the project
 $oc get service
 ```
-:point_right:[SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html#:~:text=OpenShift%20Online%20leverages%20the%20Kubernetes,or%20virtual)%20to%20a%20container.)
+:point_right:[SERVICES](https://docs.openshift.com/online/pro/architecture/core_concepts/pods_and_services.html)
 ```
 To View all the route in the projects
 $oc get route
