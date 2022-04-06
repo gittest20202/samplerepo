@@ -149,8 +149,15 @@ $ oc describe pod <pod-name>
 
 **1.8 Steps to diagnostic in the project level issues**
 - Navigate to the respective project ***($ oc project <project-name>)***
+```
+ $oc project cdp-instance
+         or
+ $oc project cpd-operators
+         or
+ $oc project ibm-common-services	 
+``` 
 
----Execute the following commands to check the event log
+- Execute the following commands to check the event log
 ```
 $ oc get events
 ```
