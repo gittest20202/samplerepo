@@ -190,3 +190,12 @@ $ oc get events
   ![PROMETHEUS](images/prometheus-dashboard3.PNG?raw=true)
 
 **1.10 Verifying the ETCD Cluster health status**
+- ETCD is the heart of the cluster, where all the cluster information’s are stored.Its like a database of the running cluster
+
+- To check the ETCD cluster health status use the following url 
+[ETCD-DATABASE STATUS](https://grafana-openshift-monitoring.apps.cp4d4.dev.wkc.open.ac.uk/d/c2f4e12cdf69feb95caa41a5a1b423d9/etcd?orgId=1&refresh=5s)
+![ETCD-STATUS](images/etcd-status.PNG?raw=true)
+- Command Line to check ETCD health
+```
+$ oc get etcd -o=jsonpath='{range .items[0].status.conditions[?(@.type=="EtcdMembersAvailable")]}{.message}{"\n"}
+```
