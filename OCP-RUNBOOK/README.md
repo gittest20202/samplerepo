@@ -6,4 +6,4 @@
     src="images/ocp-logo.png"
   >
 </p>
-- [OU Dev Runbook] (OU-DEV/README.md)
+- ![OU Dev Runbook] (OU-DEV/README.md)
