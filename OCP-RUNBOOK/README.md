@@ -6,7 +6,6 @@
     src="images/ocp-logo.png"
   >
 </p>
-***Click The Link To Access The OCP Environment Wise Runbook***
 - [OU Dev Runbook](OU-DEV/README.md)
 - [OU PROD Runbook](OU-PROD/README.md)
 - [BSI DEV Rubbook](BSI-DEV/README.md)
