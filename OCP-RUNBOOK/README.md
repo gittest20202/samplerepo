@@ -7,10 +7,8 @@
   >
 </p>
 
-## OCP Services and Monitoring
-**1.1 Steps to Login to OCP Portal UI**
-- Access below links to access
-     - [OU Dev Runbook](OU-DEV/README.md)
-     - [OU PROD Runbook](OU-PROD/README.md)
-     - [BSI DEV Rubbook](BSI-DEV/README.md)
+**Click The Link To Access The OCP Environment Wise Runbook**
+     - :point_right:[OU Dev Runbook](OU-DEV/README.md)
+     - :point_right:[OU PROD Runbook](OU-PROD/README.md)
+     - :point_right:[BSI DEV Rubbook](BSI-DEV/README.md)
 
