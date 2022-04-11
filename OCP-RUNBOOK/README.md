@@ -10,7 +10,7 @@
 ## OCP Services and Monitoring
 **1.1 Steps to Login to OCP Portal UI**
 - Access below links to access
-     - ![OU Dev Runbook](OU-DEV/README.md) in the browser to access Login page.
-     - ![OU PROD Runbook](https://console-openshift-console.apps.cp4d.live.wkc.open.ac.uk/) in the browser to access Login page.
-     - ![BSI DEV Rubbook](https://console-openshift-console.apps.cp4d.datagovernancedev.bsigroup.com/) in the browser to access Login page.
+     - [OU Dev Runbook](OU-DEV/README.md)
+     - [OU PROD Runbook](OU-PROD/README.md)
+     - [BSI DEV Rubbook](BSI-DEV/README.md)
 
